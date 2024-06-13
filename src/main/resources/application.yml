@@ -1,0 +1,7 @@
+spring:
+    application:
+        name: Spring-Boot-Integration
+    profiles:
+        active: dev
+    main:
+        web-application-type: servlet # none=standalone, servlet=web, reactive=reactive, basically it is auto-detected
